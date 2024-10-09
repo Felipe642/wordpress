@@ -1,0 +1,16 @@
+# Ignorar archivos de WordPress
+wp-config.php
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/plugins/
+/wp-content/themes/
+/wp-content/languages/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependencias de Composer y Node.js
+vendor/
+node_modules/
